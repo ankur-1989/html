@@ -40,6 +40,14 @@ Links are created using the `<a>` tag. Types of links:
 6. **Download Link**: Enables downloading of a file.
 7. **Back to Home Link**: A link to navigate back to the homepage.
 
+
+* Why email links might not be such a good idea.
+  * Increased spam vulnerability: Email links expose addresses to spam scrapers, potentially leading to an influx of unsolicited messages.
+  * Limited functionality: Not all users have desktop email clients installed, rendering these links useless for some visitors
+* How to avoid some of the problems they create.
+  * Use contact forms instead of email links on websites. This prevents spam bots from scraping email addresses.
+  * Implement strong email security protocols like SPF, DKIM, and DMARC to authenticate emails and reduce the risk of spoofing
+
 ---
 
 ## Sources for Downloading Free Images
