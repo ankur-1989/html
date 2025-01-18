@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Images</title>
+</head>
+<body>
+    <header>  <!--one header element-->
+        <nav aria-label="primary-navigation"><ul><li>Main</li>
+        <li>projects</li></ul></nav>
+    </header>
+    <main> <!--There can only be one main element-->
+        <article>
+        <figure>
+            <!--alt is used to help assitive device like screen reader to read the image.-->
+    <!-- second purpose is incase image is not downloaded then you can see what the image is about.-->
+   
+     <!--HTML5 does not require closing bracket for img-->
+    <!--it is recommended to provide width and height of the image to avoid cumulative layout shift.-->
+    <!--when your image is below the fold, then you might provide the loading attribute to lazy. by default the value is eager.-->
+           
+    <img src="img/path.png" alt="data structure learning path" width="600" height="500" loading="lazy">
+            <figcaption>Flow chart for data structure learning path.</figcaption>
+           </figure>
+          
+       
+           <figure>
+            <figcaption>Sample array code</figcaption>
+            <p>
+                <code>const arr = []</code>
+            </p>
+           </figure>
+       <a href="img/issue.png" download>Download</a>  
+    </article>
+    </main>
+    <footer> <!--one footer element on the page. -->
+      <nav aria-label="footer-navigation"></nav>
+    </footer>
+</body>
+</html>

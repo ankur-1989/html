@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--Without this, you will get error on validation but the page works-->
+<html lang="en-US"> <!--If you don't add lang attribute you will get warning -->
+    <head>
+        <!--It contains the metadata of the page.-->
+        <meta charset="UTF-8"> <!--without this you will get error on validation-->
+        <meta name="author" content="Ankur Gupta">
+        <meta name="description" content="this page contains the html notes">
+        <title>Ankur's Profile</title>
+        <link rel="icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="" type="text/css">
+    </head>
+    <body>
+        <!--h1 heading should not be more than 1- which says what the page is about. good for SEO purpose as well.-->
+        <h1>Ankur Gupta</h1>
+        <hr>
+        <h2>Senior Frontend Developer</h2>
+        <hr>
+        <h3>reisetopia  <abbr title="company">GmbH</abbr></h3>
+        <address>Bismarchstarsse 87</address>
+        <p>&nbsp;I design web applications
+            <br> &lt;I test the web applications
+        </p>
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+        <dl>
+            <dt>React</dt>
+            <dd>A javascript library to create user interfaces</dd>
+            <dt>Angular</dt>
+            <dd>Javascript framework which has inbuilt libraries to build full stack application</dd>
+        </dl>
+        <aside>
+            <details> <!--details and summary work together. you can use it to detail of the product etc.-->
+                <summary>Guess which algo can be used to <mark>compress this image.</mark></summary>
+                <p>Lossless and lossy compression algo can be used. takes very less than <time datetime="PT3H">1 hour</time></p> <!--time is semantic for assistive technologies.-->
+            </details>
+        </aside>
+    </body>
+</html><!--creating multiple sections on the page and then link to those sections with the menu items created using nav ul-->
