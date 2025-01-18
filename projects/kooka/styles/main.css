@@ -5,7 +5,7 @@ h1 {
 }
 header {
     display: flex;
-    background-image: url('img/sandwich-on-plate.jpg');
+    background-image: url('../images/sandwich-on-plate.jpg');
     background-size: cover;
     background-position: center;
     color: white;
