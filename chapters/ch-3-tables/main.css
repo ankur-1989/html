@@ -1,4 +1,13 @@
-table, tr, td, th, caption {
+ tr, td, th, caption {
     border: 1px solid #ccc;
     border-collapse: collapse;
+    border-radius: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
+td:nth-child(even), th:nth-child(even) {
+   background-color: cadetblue;
 }

@@ -18,12 +18,16 @@
    
      <!--HTML5 does not require closing bracket for img-->
     <!--it is recommended to provide width and height of the image to avoid cumulative layout shift.-->
+    <!--Always specify the width and height of an image. If width and height are not specified, the web page might flicker while the image loads.-->
     <!--when your image is below the fold, then you might provide the loading attribute to lazy. by default the value is eager.-->
            
-    <img src="img/path.png" alt="data structure learning path" width="600" height="500" loading="lazy">
+    <img src="img/path.png" alt="data structure learning path" width="600" height="500" loading="lazy" usemap="#pathmap">
+    <map name="pathmap">
+        <area shape="rect" coords="84,39,170,270" href="array.html" alt="array">
+    </map>  
             <figcaption>Flow chart for data structure learning path.</figcaption>
            </figure>
-          
+       
        
            <figure>
             <figcaption>Sample array code</figcaption>

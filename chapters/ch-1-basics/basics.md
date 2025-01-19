@@ -1,5 +1,11 @@
 # HTML Notes
 
+## Page title
+
+The title should describe the content and the meaning of the page.
+
+The page title is very important for search engine optimization (SEO). The text is used by search engine algorithms to decide the order when listing pages in search results.
+
 ## Block-Level and Inline Elements
 
 - **Block-Level Elements**: Elements like `<p>` and `<h1>` create a new line and take up the full width available.
@@ -39,7 +45,6 @@ Links are created using the `<a>` tag. Types of links:
 5. **Mailto Link**: Links to initiate an email (`mailto:example@example.com`).
 6. **Download Link**: Enables downloading of a file.
 7. **Back to Home Link**: A link to navigate back to the homepage.
-
 
 * Why email links might not be such a good idea.
   * Increased spam vulnerability: Email links expose addresses to spam scrapers, potentially leading to an influx of unsolicited messages.
