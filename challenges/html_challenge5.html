@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>HTML survey</header>
+    <main>
+        <section>
+           <form action="https:httpbin.org/post" method="post">
+            <br>
+             <fieldset>
+                <legend>Personal details</legend>
+                <p>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Byron"> 
+                </p>
+                <p>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Lucas"> 
+                </p>
+
+                 <p>
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" placeholder="My Address"> 
+                </p>
+                <p>
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" list="states-list">
+                    <datalist id="states-list">
+                        <option value="Berlin"></option>
+                        <option value="Frankfurt"></option>
+                        <option value="Hamburg"></option>
+                        <option value="Saxony"></option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </p>
+                <p>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label> 
+                    <span>or</span>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label> 
+                </p>
+             </fieldset>
+             <br>
+             <fieldset>
+                <legend>Questionnaire</legend>
+                <p>
+                    <span>Do you bleat like a sheep?</span>
+                    <input type="checkbox" name="q1" id="q1" value="yes">
+                    <label for="q1">Yes</label>
+                </p>
+                <p>
+                    <span>
+                        How many cups of coffee do you drink a day?
+                    </span>
+                    <br><br>
+                    <input type="radio" name="coffee" id="option1" value="0-2">
+                    <label for="option1">0 to 2 cup(s)</label>
+                    <input type="radio" name="coffee" id="option2" value="2-4">
+                    <label for="option2">2 to 2 cups</label>
+                    <br> <br>
+                    <input type="radio" name="coffee" id="option3" value="4-8">
+                    <label for="option3">4 to 8 cups</label>
+                    <input type="radio" name="coffee" id="option4" value="8-16">
+                    <label for="option4">8 to 16 cups</label>
+                </p>
+                <p>
+                    <label for="ownComputer">Do you own a personal computer?</label>
+                    <input type="text" list="answer-list" name="ownComputer" id="ownComputer">
+                    <datalist id="answer-list">
+                        <option value="Yes"></option>
+                        <option value="No"></option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="q4">How long would it take to make a HTML form?</label>
+                    <input type="text" name="q4" id="q4">
+                </p>
+                <p>
+                    <label for="q5">Comments:</label>
+                    <br><br>
+                    <textarea name="q5" id="q5" cols="30" rows="5"></textarea>
+                </p>
+             </fieldset>
+             <br>
+             <button type="reset">Reset Form</button>
+             <button type="submit">Send survey</button>
+           </form>
+        </section>
+    </main>
+   
+</body>
+</html>
